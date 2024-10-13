@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+  }
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 50px;   
+    gap: 30px;
+  }
+
+  header{
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+
+
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px; 
+}
+
+.buttons button{
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-style: none;
+    border-radius: 50px;
+}
+.buttons button:hover{
+   opacity:0.8;
+
+}
+
+  #rock{
+    background-color: #6bdb6f ;
+  }
+
+  #paper{
+    background-color: #349ef4;
+  }
+
+  #scissors{
+    background-color: #FF0000;
+  }
